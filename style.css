@@ -24,6 +24,7 @@ ACCENT COLOR:
 body {
   font-family: 'Inter', sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -53,14 +54,22 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 16px 32px;
   display: inline-block;
   font-weight: 500;
-  font-size: 18px;
 }
 
 .btn:hover, .btn:active {
   background-color: #099268;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
 }
 
 /* ------------------------ */
@@ -112,6 +121,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color:#087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -171,4 +183,5 @@ h3 {
 footer {
   margin-bottom: 48px;
   font-size: 14px;
+  color: #495057;
 }
